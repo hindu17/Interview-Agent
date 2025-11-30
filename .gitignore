@@ -1,0 +1,40 @@
+# Python cache & compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+*.env
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/editor folders
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Streamlit
+.streamlit/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Node dependencies (if any)
+node_modules/
+
+# Large datasets (if any)
+*.csv
+*.pdf
+*.xlsx
