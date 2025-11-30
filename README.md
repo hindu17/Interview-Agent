@@ -1,15 +1,15 @@
-Interview Agent — AI-Powered Interview & Evaluation Tool
+***Interview Agent — AI-Powered Interview & Evaluation Tool***
 
-LIVE DEMO :
+**LIVE DEMO** :
 https://interview-agent17.streamlit.app/
 
-Overview
+**Overview**
 
 The Interview Agent is an AI-powered web application that automates the interview process for any role. It generates interview questions based on a job description, collects candidate answers, and provides AI-driven evaluation reports with scores, feedback, and insights.
 
 This tool is designed for HR teams, recruiters, and hiring managers to save time, standardize interviews, and leverage AI for objective candidate evaluation.
 
-Features
+**Features**
 
 Job Description Parsing: Upload PDF, DOCX, TXT, or paste JD text.
 
@@ -23,7 +23,7 @@ Score Aggregation: Provides overall score and detailed feedback for each questio
 
 Persona Customization: Set the interviewer persona (e.g., strict HR, friendly tech lead).
 
-Tech Stack
+**Tech Stack**
 
 AI Model: Google Gemini 2.5 (Generative AI)
 
@@ -36,7 +36,7 @@ Hosting (optional): Streamlit Cloud or other hosting services
 Environment Variables: .env for API keys (GEMINI_API_KEY)
 
 Getting Started
-Prerequisites
+**Prerequisites**
 
 Python 3.10+
 
@@ -68,7 +68,7 @@ Create a .env file with your Gemini API key:
 
 GEMINI_API_KEY=your_google_gemini_api_key_here
 
-Running Locally
+**Running Locally**
 
 streamlit run app.py
 
@@ -96,7 +96,7 @@ Select branch and app.py file, then click Deploy.
 
 Share the generated public URL for your demo.
 
-Project Architecture
+**Project Architecture**
 app.py                  # Main Streamlit app
 question_generator.py   # Generates interview questions via Gemini AI
 evaluator.py            # Evaluates candidate answers using AI
@@ -104,7 +104,7 @@ utils.py                # JD parsing & CSV report utilities
 .env                    # Environment variables (API keys)
 
 
-Workflow:
+**Workflow:**
 
 Candidate uploads JD → Streamlit app parses it.
 
@@ -115,7 +115,7 @@ Candidate answers questions → AI evaluates each answer.
 Scores & feedback are displayed → Option to download CSV report.
 
 
-Potential Improvements
+**Potential Improvements**
 
 Add multi-language support.
 
@@ -123,11 +123,11 @@ Include voice-to-text for answers.
 
 Integrate with HR systems for automated candidate tracking.
 
-Real-time collaborative interview sessions.
+.Real-time collaborative interview sessions.
 
 
 
-Acknowledgements
+**Acknowledgements**
 
 Google Gemini AI for AI question generation and evaluation.
 
