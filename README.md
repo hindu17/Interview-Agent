@@ -11,12 +11,17 @@ This tool is designed for HR teams, recruiters, and hiring managers to save time
 
 **Features**
 
--Job Description Parsing: Upload PDF, DOCX, TXT, or paste JD text.
--Role & Level Customization: Tailor interview questions based on candidate role and experience level.
--AI Question Generation: Automatically generates a mix of technical and behavioral interview questions using Google Gemini API.
--Answer Input & Evaluation: Candidates can submit answers, and the AI evaluates them for quality, relevance, and completeness.
--Score Aggregation: Provides overall score and detailed feedback for each question.
--Persona Customization: Set the interviewer persona (e.g., strict HR, friendly tech lead).
+Job Description Parsing: Upload PDF, DOCX, TXT, or paste JD text.
+
+Role & Level Customization: Tailor interview questions based on candidate role and experience level.
+
+AI Question Generation: Automatically generates a mix of technical and behavioral interview questions using Google Gemini API.
+
+Answer Input & Evaluation: Candidates can submit answers, and the AI evaluates them for quality, relevance, and completeness.
+
+Score Aggregation: Provides overall score and detailed feedback for each question.
+
+Persona Customization: Set the interviewer persona (e.g., strict HR, friendly tech lead).
 
 **Tech Stack**
 
