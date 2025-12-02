@@ -9,9 +9,9 @@ import os
 # --------------------
 # LOAD ENV + CONFIGURE GEMINI
 # --------------------
-load_dotenv()
-GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-
+# load_dotenv()
+# GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
+GEMINI_API_KEY = st.secrets.get("GEMINI_API_KEY") or os.getenv("GEMINI_API_KEY")
 if not GEMINI_API_KEY:
     st.error("❌ ERROR: GEMINI_API_KEY not found in .env file!")
 else:
@@ -107,4 +107,4 @@ if "questions" in st.session_state:
         #     st.success(f"📄 Report Saved: `{file_path}`")
 
 st.markdown("---")
-st.info("💡 Powered by Google Gemini AI — Supports question generation, evaluation, JD parsing & CSV reports.")
+st.info("💡 Powered by Google Gemini AI — Supports question generation, evaluation, JD parsing.")
